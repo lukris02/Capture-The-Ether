@@ -12,6 +12,7 @@ https://capturetheether.com/challenges/math/token-sale/
 numTokens - ?  
 msg.value - ?
 
+```
 uint256 constant PRICE_PER_TOKEN = 1 ether;
 
 function buy(uint256 numTokens) public payable {
@@ -19,6 +20,7 @@ function buy(uint256 numTokens) public payable {
 
         balanceOf[msg.sender] += numTokens;
 }
+```
 
 uint256 max value = 115792089237316195423570985008687907853269984665640564039457584007913129639935  
 1 ether == 1000000000000000000 wei (10^18)

@@ -1,7 +1,7 @@
 # Guess the new number
 https://capturetheether.com/challenges/lotteries/guess-the-new-number/
 
-1. Change variable "contractAddress" and deploy contract "GuessTheNewNumberSolution" from GuessTheNewNumberSolution.sol.
+1. Change variable "contractAddress" and deploy the contract "GuessTheNewNumberSolution" from GuessTheNewNumberSolution.sol.
 2. Call the function "guess", msg.value should be == 1 ether.*
 3. Call the function "destroy" to get ethers back.
 

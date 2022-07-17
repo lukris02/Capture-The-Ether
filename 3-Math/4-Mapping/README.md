@@ -6,7 +6,7 @@ https://capturetheether.com/challenges/math/mapping/
 
 
 *Explanation:
-See https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html#bytes-and-string.
+See https://docs.soliditylang.org/en/latest/internals/layout_in_storage.html.
 Every contract has its own storage, which is actually a mapping of 2^256 * 32-bytes-slots.
 The elements of the map array are of type uint256 which means that one element occupies an entire 32-bit slot.
 So, the contract storage is look like:
